@@ -22,6 +22,4 @@ public class UserRegisterListener implements ApplicationListener<UserRegisterEve
         System.out.println("用户注册监听器V1");
         System.out.println("用户注册成功，用户名：" + username + "，邮箱：" + email);
     }
-
-
 }

@@ -1,6 +1,6 @@
 package org.springevent.listener;
 
-import org.springevent.event.UserRegisterEvent;
+import org.springevent.event.UserRegisterEventV2;
 import org.springframework.context.event.EventListener;
 import org.springframework.stereotype.Component;
 
@@ -15,8 +15,8 @@ import org.springframework.stereotype.Component;
 @Component
 public class UserRegisterListenerV2{
 
-    @EventListener(UserRegisterEvent.class)
-    public void getUserInfo(UserRegisterEvent event){
+    @EventListener(UserRegisterEventV2.class)
+    public void getUserInfo(UserRegisterEventV2 event){
         String username = event.getUsername();
         String email = event.getEmail();
         System.out.println("用户注册监听器V2");
