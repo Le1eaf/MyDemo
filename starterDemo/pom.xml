@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.tfz.demo</groupId>
-    <artifactId>starterDemo</artifactId>
+    <artifactId>StarterDemo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
     <properties>
