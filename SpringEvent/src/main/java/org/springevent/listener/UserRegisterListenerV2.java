@@ -5,7 +5,7 @@ import org.springframework.context.event.EventListener;
 import org.springframework.stereotype.Component;
 
 /**
- * UserRegisterListenerV2 枚举/类/接口说明
+ * UserRegisterListenerV2 注解版监听器
  *
  * @author: tanfuzeng
  * @date: 2025/7/28 11:44

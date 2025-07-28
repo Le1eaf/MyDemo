@@ -6,7 +6,7 @@ import org.springframework.context.ApplicationListener;
 import org.springframework.stereotype.Component;
 
 /**
- * UserRegisterListener 枚举/类/接口说明
+ * UserRegisterListener 接口版监听器
  *
  * @author: tanfuzeng
  * @date: 2025/7/28 11:28
