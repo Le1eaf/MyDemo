@@ -1,6 +1,4 @@
-package org.proxydemo.dynamicProxyDemo;
-
-import org.proxydemo.dynamicProxyDemo.Person;
+package org.proxydemo.dynamicProxyByJDKDemo;
 
 /**
  * Student 枚举/类/接口说明

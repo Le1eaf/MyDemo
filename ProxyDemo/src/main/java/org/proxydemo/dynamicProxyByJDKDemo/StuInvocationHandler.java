@@ -1,4 +1,6 @@
-package org.proxydemo.dynamicProxyDemo;
+package org.proxydemo.dynamicProxyByJDKDemo;
+
+import org.proxydemo.tookit.MonitorUtil;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

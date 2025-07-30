@@ -1,4 +1,4 @@
-package org.proxydemo.dynamicProxyDemo;
+package org.proxydemo.tookit;
 
 /**
  * MonitorUtil 检测方法执行时间工具类
