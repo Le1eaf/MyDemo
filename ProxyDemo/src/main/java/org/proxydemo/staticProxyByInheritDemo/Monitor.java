@@ -12,11 +12,9 @@ import org.proxydemo.staticProxyByCombinationDemo.Student;
  **/
 public class Monitor extends StudentV4{
 
-    StudentV4 stu;
-
-    public Monitor(String name, StudentV4 stu) {
+    public Monitor(String name) {
         super(name);
-        this.stu = stu;
+
     }
 
     @Override

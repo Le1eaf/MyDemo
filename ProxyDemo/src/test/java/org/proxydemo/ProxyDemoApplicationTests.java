@@ -36,7 +36,7 @@ class ProxyDemoApplicationTests {
     // 基于继承的静态代理
     void contextLoads2() {
         StudentV4 zhangsan = new StudentV4("张三");
-        Monitor monitor = new Monitor(zhangsan.getName(),zhangsan);
+        Monitor monitor = new Monitor(zhangsan.getName());
         monitor.giveMoney();
     }
 
