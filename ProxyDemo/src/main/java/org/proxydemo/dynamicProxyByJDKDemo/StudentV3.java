@@ -8,9 +8,9 @@ package org.proxydemo.dynamicProxyByJDKDemo;
  * @version: v1.0.0
  * @since: 2025/7/30 11:17
  **/
-public class Student implements Person {
+public class StudentV3 implements PersonV3 {
     private String name;
-    public Student(String name){
+    public StudentV3(String name){
         this.name = name;
     }
 

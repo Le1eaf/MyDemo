@@ -1,4 +1,4 @@
-package org.proxydemo.staticProxyDemo;
+package org.proxydemo.staticProxyByCombinationDemo;
 
 /**
  * StudentProxy 学生代理类

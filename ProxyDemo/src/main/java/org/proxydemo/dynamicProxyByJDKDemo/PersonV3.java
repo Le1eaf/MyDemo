@@ -8,6 +8,6 @@ package org.proxydemo.dynamicProxyByJDKDemo;
  * @version: v1.0.0
  * @since: 2025/7/30 11:17
  **/
-public interface Person {
+public interface PersonV3 {
     void giveMoney();
 }
