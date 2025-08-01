@@ -47,9 +47,9 @@ class ProxyDemoApplicationTests {
 
         InvocationHandler stuHandler = new StuInvocationHandler<PersonV3>(zhangsan);
 
-        Person stuProxy = (Person) Proxy.
-                newProxyInstance(Person.class.getClassLoader(),
-                new Class<?>[]{Person.class},
+        PersonV3 stuProxy = (PersonV3) Proxy.
+                newProxyInstance(PersonV3.class.getClassLoader(),
+                new Class<?>[]{PersonV3.class},
                 stuHandler);
 
         stuProxy.giveMoney();
